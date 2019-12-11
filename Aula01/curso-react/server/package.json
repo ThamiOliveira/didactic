@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThamiOliveira/didactic.git"
+  },
+  "author": "Thamiris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThamiOliveira/didactic/issues"
+  },
+  "homepage": "https://github.com/ThamiOliveira/didactic#readme",
+  "dependencies": {
+    "mongoose": "^5.8.0"
+  }
+}
