@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/ThamiOliveira/didactic#readme",
   "dependencies": {
-    "mongoose": "^5.8.0"
-  }
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.0",
+    "node-restful": "^0.2.6"
+  },
+  "devDependencies": {}
 }
