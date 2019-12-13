@@ -6,7 +6,7 @@ const contatoSchema = new Schema({
 data: { type: Date, required: true },
 nome: { type: String, required: true},
 email: {type: String, required: true},
-telefone: { type: Number},
+telefone: { type: Number}, 
 assunto: { type: String}
 });
 module.exports = restful.model('contato', contatoSchema);
