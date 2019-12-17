@@ -1,15 +1,14 @@
 import React from 'react';
+import { Cabecalho } from '../../componentes/cabecalho';
+import { CadastroCurso } from './cadastro';
 
 export class Curso extends React.Component {
-    render(){
+    render() {
         return (
             <div className="container">
-                <h1> Aplicação </h1>
+                <Cabecalho titulo="Curso" subtitulo=" Cadastro de cursos" />
+                <CadastroCurso />
             </div>
         )
-
-
-
-
     }
 }

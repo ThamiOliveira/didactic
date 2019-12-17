@@ -6,8 +6,8 @@ export class Contato extends React.Component {
     render() {
         return (
             <div className="container">
-                <Cabecalho titulo="Cursos"
-                    subtitulo=" Cadastro de cursos" />
+                <Cabecalho titulo="Contato"
+                    subtitulo=" Entre em contato contato" />
 
 
             </div >
