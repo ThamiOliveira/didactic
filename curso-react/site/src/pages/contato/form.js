@@ -1,12 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
-import { dataOnChange, nomeOnChange,emailOnChange} from '../../actions/contatoAction'
+import { dataOnChange, nomeOnChange, emailOnChange } from '../../actions/contatoAction'
 
 
 
 
- class ContatoForm extends React.Component {
+class ContatoForm extends React.Component {
     render() {
         return (
             <div>
@@ -18,8 +18,8 @@ import { dataOnChange, nomeOnChange,emailOnChange} from '../../actions/contatoAc
                         <div className="col-sm-5 col-6">
                             <input type="date"
                                 className="form-control" id="data"
-                                value={this.props.data} 
-                                onChange={this.props.dataOnChange}/>
+                                value={this.props.data}
+                                onChange={this.props.dataOnChange} />
                         </div>
                     </div>
                     <div className="form-group row">
@@ -28,8 +28,8 @@ import { dataOnChange, nomeOnChange,emailOnChange} from '../../actions/contatoAc
                         <div className="col-sm-9">
                             <input type="text"
                                 className="form-control" id="nome"
-                                value={this.props.nome} 
-                                onChange={this.props.nomeOnChange}/>
+                                value={this.props.nome}
+                                onChange={this.props.nomeOnChange} />
                         </div>
                     </div>
                     <div className="form-group row">
@@ -38,8 +38,8 @@ import { dataOnChange, nomeOnChange,emailOnChange} from '../../actions/contatoAc
                         <div className="col-sm-9">
                             <input type="email"
                                 className="form-control" id="email"
-                                value={this.props.email} 
-                                onChange={this.props.emailOnChange}/>
+                                value={this.props.email}
+                                onChange={this.props.emailOnChange} />
                         </div>
                     </div>
                     <div className="form-group row">
@@ -74,11 +74,11 @@ import { dataOnChange, nomeOnChange,emailOnChange} from '../../actions/contatoAc
 }
 
 const mapStateToProps = store => ({
-    data : store.contato.data,
-    nome : store.contato.nome,
-    email : store.contato.email,
-    telefone : store.contato.telefone,
-    assunto : store.contato.telefone,
+    data: store.contato.data,
+    nome: store.contato.nome,
+    email: store.contato.email,
+    telefone: store.contato.telefone,
+    assunto: store.contato.telefone,
 })
 
 const mapActionToProps = dispatch => bindActionCreators({
