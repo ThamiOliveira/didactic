@@ -15,9 +15,9 @@ import { connect } from 'react-redux';
     }
 }
 
-const mapStateToProps = store => ({
+const mapStoreToProps = store => ({
     nome : store.contato.nome
 })
 
-const Connected = connect(mapStateToProps, null) (Contato)
+const Connected = connect(mapStoreToProps, null) (Contato)
 export {Connected as Contato}
